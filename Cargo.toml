@@ -1,0 +1,15 @@
+[package]
+name = "counter-kernel"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+tezos-smart-rollup-core = { git = "https://gitlab.com/tezos/tezos" }
+tezos-smart-rollup-host = { git = "https://gitlab.com/tezos/tezos" }
+tezos-smart-rollup-debug = { git = "https://gitlab.com/tezos/tezos" }
+tezos-smart-rollup-encoding = { git = "https://gitlab.com/tezos/tezos" }
+tezos-smart-rollup-storage = { git = "https://gitlab.com/tezos/tezos" }
+tezos-smart-rollup-entrypoint = { git = "https://gitlab.com/tezos/tezos" }
